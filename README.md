@@ -37,15 +37,16 @@ Deployment: Pythonanywhere, CodeSandbox
 
 ## Challenges I ran into
 
-In process
+During our implementation, we have faced a lot of challenges These challenges typically include a better incorporation of frontend and backend, a better incorporation of different libraries and  incorporation of existing knowledge to our visualization. For one of these challenges, we face when we update an AS, we will have two copies of graph overlapping together. The reason is that we used D3 and React together and they are not compatible well together. The second challenge we face is to use appropriate algorithms in visualizing the BGP graph. We first chose to use DFS for the BGP plot. But it was not approachable because when we truncated the number of vertices, it will always cause us to have a cluster. It does not well represent the neighborhood of a vertex (autonomous system). We decided to use BFS, instead. 
+
 
 ## Accomplishments that I'm proud of
 
-In process
+I am able to stick with what I proposed during the begining of the quarter. I was able to faithfully follow what I want to prove. 
 
 ## What I learned
 
-In process
+I have learned that there are a lot of challenges in developing good approach in identifying BGP hijacking anomaly. It was hard or even impossible for me to know what exactly was going on behind the scene at the first place. But I was somehow managed to find an approach in understanding BGP update message and I was able to find the best way to finalize a set of features for my DQN.
 
 ## What's next for Enforce-BGP
 
