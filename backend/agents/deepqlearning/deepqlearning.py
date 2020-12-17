@@ -15,7 +15,7 @@ def make_model():
     model.add(Dense(2, activation='linear'))  
     model.compile(loss="mse", optimizer=Adam(lr=0.001), metrics=['accuracy'])
     return model
-
+# adapted from https://github.com/rlcode/per/blob/master/cartpole_per.py
 class DQNAgent:
     def __init__(self, ob, traindataframe):
         self.env = ob(traindataframe)
